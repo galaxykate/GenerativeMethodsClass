@@ -1,0 +1,87 @@
+
+body,html {
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+
+body {
+  background-color: hsla(190, 20%, 70%, 1);
+}
+
+h1,h2,h3 {
+	font-family: 'Gorditas', cursive;
+}
+
+
+#controls {
+	margin: 15px;
+	padding: 4px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, .4);
+	border-radius: 10px;
+}
+
+/* Set the size of the containers */
+.drawing {
+	box-sizing: border-box;
+	margin: 10px;
+	vertical-align: top;
+	background-color: white;
+	
+	display: inline-block;
+	
+	box-shadow: 1px 2px 5px black;
+	border-radius: 10px;
+}
+
+.drawing-label {
+	font-family: monospace;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+}
+
+/* Set the size of the containers */
+.drawing-p5holder {
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+.slider {
+	display: inline-block;
+	width: 230px;
+	text-align: right;
+}
+
+canvas {
+	width: 100%;
+	height: 100%;
+	/*border: 20px solid hsla(220, 100%, 90%, 1);*/
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5), 0px 0px 0px 2px hsla(220, 0%, 50%, 1);
+	
+}
+
+#lightmap {
+	background-color: white;
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5), 0px 0px 0px 10px hsla(220, 0%, 50%, 1);
+	
+}
+
+
+#main-column {
+	border-radius: 40px;
+	background-color: white;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+	width: 700px;
+	height: 100%;
+	display: block;
+	position: relative;
+	text-align: center;
+	/*margin: 0px auto;*/
+	
+
+}

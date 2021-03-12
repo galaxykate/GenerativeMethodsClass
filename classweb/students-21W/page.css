@@ -1,0 +1,54 @@
+/* Background pattern from Toptal Subtle Patterns */
+body {
+  background-image: url("retina_wood.png");
+  background-repeat: repeat;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Lobster', cursive;
+
+}
+
+.card { 
+	display: inline-block;
+	padding: 20px;
+	box-shadow: 1px 2px 5px black;
+	background-color: white;
+	margin: 5px;
+ }
+
+#main {
+	padding: 20px;
+	/* Make this n more than 500px wide, and center it horizontally */
+	margin: 0px auto;
+	max-width: 500px;
+	box-shadow: 1px 2px 5px hsla(0, 0, 0, .5);
+
+
+	background-color: white;
+	border-radius: 10px;
+	
+	text-align: center;
+}
+
+.column {
+	text-align: center;
+}
+
+.polaroid {
+	display: inline-block;
+	padding: 20px;
+	box-shadow: 1px 2px 5px black;
+	background-color: white;
+	margin: 5px;
+}
+
+.handwriting {
+	font-family: 'Permanent Marker', cursive;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
