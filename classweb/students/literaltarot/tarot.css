@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/Nunito-Regular.ttf);
+
+}
+
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/Nunito-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/Nunito-BoldItalic.ttf);
+  font-style: italic;
+   font-weight: bold;
+
+}
+
+@font-face {
+  font-family: title;
+  src: url(fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: code;
+  src: url(fonts/SourceCodePro-Regular.ttf);
+}
+
+:root {
+	--shadow:1px 2px 3px rgba(0, 0, 0, .5);
+	--inset-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
+	--bg-color:hsl(30, 95%, 98%);
+	--contrast-color:hsl(310, 90%, 50%);
+	--contrast-color-dark:hsl(310, 90%, 20%);
+	--contrast-color-bg:hsla(310, 90%, 80%, .2);
+	--contrast-color-light:hsl(310, 90%, 90%);
+
+}
+
+.card img{
+
+	width: 1em;
+	filter: invert(100%);
+
+}
+
+.light img{
+	opacity: .7;
+	filter: invert(0%);
+
+}
+
+
+html {
+	background-image: url("retina_wood.png");
+  background-repeat: repeat;
+}
+
+html, body {
+	box-sizing: border-box;
+	margin: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: paragraph;
+	
+}
+.card-holder {
+	display: inline-flex;
+	margin: 3px;
+	
+}
+
+.card {
+	position: relative;
+	
+	flex: 1;
+	
+	vertical-align: bottom;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	text-align: center;
+	border-radius: 10px;
+	background-color: hsla(0, 0%, 0%, 1);
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+	/*font-family: 'Poiret One', cursive;*/
+}
+
+.card.light {
+	background-color: hsla(0, 0%, 100%, 1);
+	color: black;
+}
+
+.bg {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+.top {
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	
+
+	
+
+}
+
+.inverse {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	transform: rotate(180deg);
+	
+	
+	
+}
+
+.title,.subtitle,.label-section {
+	border-radius: 30px;
+	background-color: rgba(0, 0, 0, .6);
+	
+}
+
+
+.light .title,.light .subtitle,.light .label-section {
+	border-radius: 30px;
+	background-color: hsla(0, 100%, 100%, .6);
+	
+}
+
+/*
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+*/
+
+.title {
+	font-size: 80%;
+	margin: 1em;
+
+	font-weight: 700;
+}
+
+.subtitle {
+	font-style: italic;
+	font-size: 70%;
+	margin: 1em;
+	
+}
+
+.meaning {
+	font-family: 'Josefin Slab', serif;
+
+	padding: .1em 0px ;
+	
+	font-weight: 40;
+}
+
+.label-section {
+	
+}
+
+
+.label-shadow {
+	flex: 1;
+	font-size: 60%;
+}
+
+.label-light {
+	flex: 1;
+	font-size: 70%;
+}
+

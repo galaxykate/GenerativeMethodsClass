@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+
+
+	<title>Test generator</title>
+
+	<!-- Style the chat -->
+	<link rel="stylesheet" href="chat.css">
+
+	<!-- Style the page -->
+	<link rel="stylesheet" href="page.css">
+
+
+	<script src="../../../shared/vue.js"></script>
+	
+	
+	<!-- Tracery things -->
+	<script src="../../../shared/seedrandom.min.js"></script>
+	<script src="../../../shared/test-grammars.js"></script>
+	<script src="../../../shared/tracery-1.0.js"></script>
+	<script src="../../../shared/tracery-1.0-mods-eng-basic.js"></script>
+
+	
+	<!-- add your grammar code --> 
+	<script src="grammar.js"></script>
+
+	<!-- My app's code goes last, 
+		because it needs to refer to things in the previous JS files -->
+	<script src="test.js"></script>
+
+
+</head>
+<body>
+
+	<div id="main-column">
+		
+		<div id="main">
+
+		</div>
+		
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+
+		<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+ -->
+		<title>Kate Compton - Drawing Tool</title>
+	
+
+		<link rel="stylesheet" href="page.css">
+
+
+	<!-- P5 Loaded from a CDN -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script> -->
+
+	<!-- Or P5 loaded locally -->
+	<script src="../../../shared/p5.min.js"></script>
+	
+	
+	<script src="vector.js"></script>
+
+	<!-- My app's code goes last, 
+		because it needs to refer to things in the previous two JS files -->
+	<script src="app.js"></script>
+
+
+</head>
+<body>
+	<div id="main-column">
+		<h1>KatePix</h1>
+		<div id="main">
+
+		</div>
+
+		<div>
+			<button onclick="clearCanvas()">🕳</button>
+			<button onclick="rainbowClearCanvas()">🕳(🌈)</button>
+			<button onclick="mode='garland'">🌸</button>
+			<button onclick="mode='smudge'">💧</button>
+			<button onclick="mode='thread'">🧵</button>
+			<button onclick="mode='mountains'">🗻</button>
+			
+		</div>
+	</div>
+
+</body>
+</html>

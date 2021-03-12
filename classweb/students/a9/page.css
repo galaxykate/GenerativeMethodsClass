@@ -1,0 +1,127 @@
+
+body,html {
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+
+body {
+  background-color: hsla(190, 20%, 70%, 1);
+}
+
+h1,h2,h3 {
+	margin: 0px 2px;
+	font-family: sans-serif;
+	
+
+}
+
+
+.contrast {
+	color: hsla(320, 100%, 40%, 1);
+}
+.title {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+#myAudio {
+	/*position:  absolute;*/
+}
+
+.ultradetail  {
+	color: grey;
+	font-style: italic;
+	font-size: 50%;
+}
+
+.label {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.slider {
+	position: relative;
+	appearance: slider-horizontal;
+    color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
+
+.slider-cell {
+	position: relative;
+}
+.slider-val {
+	position: absolute;
+	top: -3px;
+	color: grey;
+	font-style: italic;
+	font-size: 50%;
+}
+
+#app {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex:1;
+	flex-direction: column;
+}
+
+
+#main-column {
+	position: absolute;
+	
+	/*margin: 0px auto;*/
+	right: 0px;
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+	width: 800px;
+	
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.emoji-button {
+	text-align: center;
+	width: 2em;
+	height: 2em;
+	border-width: 0px;
+	border-radius: 10em;
+	padding: 0px;
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .7);
+}
+/* The button when pressed */
+.emoji-button:active {
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+button.toggled {
+	background-color: grey;
+}
+
+#controls {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 5px;
+	padding: 4px;
+
+
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+	width: auto;
+	
+	
+}
+
+.handsfree-debugger {
+	top: 200px;
+	position: absolute;
+	width:240px;
+}
