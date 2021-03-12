@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/Nunito-Regular.ttf);
+
+}
+
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/Nunito-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "paragraph";
+  src: url(fonts/Nunito-BoldItalic.ttf);
+  font-style: italic;
+   font-weight: bold;
+
+}
+
+@font-face {
+  font-family: title;
+  src: url(fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: code;
+  src: url(fonts/SourceCodePro-Regular.ttf);
+}
+
+:root {
+	--shadow:1px 2px 3px rgba(0, 0, 0, .5);
+	--inset-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
+	--bg-color:hsl(30, 95%, 98%);
+	--contrast-color:hsl(310, 90%, 50%);
+	--contrast-color-dark:hsl(310, 90%, 20%);
+	--contrast-color-bg:hsla(310, 90%, 80%, .2);
+	--contrast-color-light:hsl(310, 90%, 90%);
+
+}
+
+html {
+	background-image: url("img/retina_wood.png");
+  background-repeat: repeat;
+}
+
+html, body {
+	box-sizing: border-box;
+	margin: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: paragraph;
+	
+}
