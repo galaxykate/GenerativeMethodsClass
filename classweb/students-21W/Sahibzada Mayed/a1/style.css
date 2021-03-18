@@ -1,0 +1,68 @@
+h1 {
+  font-size: 32 px;
+  font-style:italic;
+  font-family: 'Monoton';
+  color: purple;
+}
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+}
+
+\\For my Assignment Sticky Notes
+.stickynote ul,li{
+  list-style:none;
+}
+
+.stickynote ul{
+  overflow:hidden:
+  padding:3em;
+}
+
+
+.stickynote ul li a{
+  background:blue;
+  color: red;
+  display:block;
+  height:10em;
+  text-align: center;
+  animation-name: sticky;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  width:10em;
+  padding:1em:
+
+}
+
+
+@keyframes sticky{ 
+  0% {color:red; background-color:blue;}
+  10% {color:blue; background-color:purple;}
+  20% {color:yellow; background-color:magenta;}
+  30% {color:purple; background-color:cyan;}
+  40% {color:orange; background-color:pink;}
+  50% {color:green; background-color:green;}
+  60% {color:pink; background-color:orange;}
+  70% {color:cyan; background-color:purple;}
+  80% {color:magenta; background-color:yellow;}
+  90% {color:purple; background-color:blue;}
+  100% {color:blue; background-color:red;}
+}
+
+ 
+.stickynote ul li{
+  margin:1em;
+  float:left;
+}
+
+
+.bouton{
+  display: inline-block;
+  padding:20px;
+  margin 5px;
+  background-color:white;
+}
+
+
+ 
