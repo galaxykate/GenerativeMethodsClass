@@ -1,0 +1,31 @@
+body{
+  background-color: #8D99AE;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1{
+  color: #D90429;
+  font-family: 'Architects Daughter';
+}
+
+table{
+  color: #EDF2F4;
+  background-color: #2B2D42;
+}
+
+tr, th{
+  outline: 2px solid #EF233C;
+}
+
+a:visited{
+  color: yellow;
+}
+
+button{
+  background-color: #8D99AE;
+}
+
+a, h2 a:visited {
+  text-decoration: none;
+  color: black;
+}

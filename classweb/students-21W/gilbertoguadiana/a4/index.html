@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<title>Gilberto Guadiana - Swarms</title>
+
+		<link rel="stylesheet" href="page.css">
+		<link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+		<!-- P5 Loaded from a CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script>
+
+		<!-- Or P5 loaded locally -->
+		<!-- <script src="../../../shared/p5.js"></script> -->
+
+		<script src="vector.js"></script>
+
+		<!-- particle code -->
+		<script src="runners.js"></script>
+		<script src="meats.js"></script>
+		<script src="shootingStars.js"></script>
+		<script src="lightmap.js"></script>
+
+		<script src="app.js"></script>
+
+
+</head>
+<body>
+
+	<div id="main-column">
+		<h1> Runners Meat Stars </h1>
+
+		<div id="main">
+
+		</div>
+
+		<div id="controls">
+			<button onclick="FLAGS.paused = !FLAGS.paused;">pause</button>
+
+			<button onclick="drawMode='runner'">🏃</button>
+			<button onclick="drawMode='meat'">🍖</button>
+			<button onclick="drawMode='shootingStar'">🌠</button>
+			<button onclick="FLAGS.runnerDebug = !FLAGS.runnerDebug">runner Debug</button>
+			<button onclick="FLAGS.meatDebug = !FLAGS.meatDebug">meat Debug</button>
+			<button onclick="FLAGS.shootingStarDebug = !FLAGS.shootingStarDebug">shootingStar Debug</button>
+		</div>
+	</div>
+
+	<div id="lightmap">
+
+	</div>
+
+</body>
+</html>
