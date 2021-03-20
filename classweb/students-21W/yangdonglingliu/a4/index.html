@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lively Painting</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../../../shared/p5.min.js"></script>
+	<script src="vector.js"></script>
+</head>
+<body>
+    <div id="main-column">
+		<h1>~Lively Painting~</h1>
+		
+		<div id="main">
+		</div>
+
+        <!-- drawing tools -->
+		<div class="controls">
+            <!-- <button onclick="clearCanvas()">clear</button>	 -->
+            <button onclick="paused=!paused">pause</button>
+			<button onclick="drawMode='curves'">curves</button>
+            <button onclick="drawMode='bubbles'">bubbles</button>
+            <button onclick="drawMode='fieryBoids'">fieryBoids</button>
+            <button onclick="drawMode='oceanicBoids'">oceanicBoids</button>
+
+        </div>
+        
+        <!-- debugging tools -->
+		<div class="debuggingtools">
+			<button onclick="FLAGS.bubblesDebug=!FLAGS.bubblesDebug">bubblesDebug</button>
+            <button onclick="FLAGS.curvesDebug=!FLAGS.curvesDebug">curvesDebug</button>
+            <button onclick="FLAGS.boidsDebug=!FLAGS.boidsDebug">boidsDebug</button>
+
+		</div>
+
+    </div>
+
+    <!-- add particle code --> 
+	<script src="curve.js"></script>
+    <script src="bubble.js"></script>
+    <script src="boid.js"></script>
+    <script src="boid-flock.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>

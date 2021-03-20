@@ -1,0 +1,68 @@
+body {
+    background-color: #f4f1de;
+    display: flex;
+    justify-content: center;
+}
+
+#displayArea {
+    background-color: #ffffff;
+    width: 70%;
+    max-width: 700px;
+    min-width: 550px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#headline {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #3d405b;
+}
+
+#profile {
+    font-family: 'Lato', sans-serif;
+    color: #3d405b;
+}
+
+#profilePic {
+    width: 30%;
+}
+
+#profile p {
+    width: 500px;
+    padding-bottom: 10px;
+    border-bottom: solid #f4f1de 2px;
+    margin: 20px auto;
+    color: #e07a5f
+}
+
+#assignments {
+    font-family: 'Lato', sans-serif;
+    color: #3d405b;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#f4f1de;
+    background-color: #006d77;
+    border-color: #3d405b;
+}
+
+.hideAll {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#3d405b;
+    background-color: #f4f1de;
+    border-color: #3d405b;
+}
+
+table {
+    margin: 20px auto;
+    line-height: 25px;
+    width: 500px;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

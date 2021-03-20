@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawning's Drawing Tool</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../../../shared/p5.min.js"></script>
+	<script src="vector.js"></script>
+</head>
+<body>
+    <div id="main-column">
+		<h1>Dawning's Drawing Tool</h1>
+		
+		<div id="main">
+		</div>
+
+		<div class="buttons">	
+			<button onclick="mode='pen'">pen</button>
+			<button onclick="mode='symmetry'">+symmetry</button>
+			<button onclick="mode='bubbles'">bubbles</button>
+			<button onclick="mode='fluffy'">fluffy</button>
+			<button onclick="mode='grass'">grass</button>
+		</div>
+		<div class="buttons">
+			<button onclick="clearCanvas()">clear</button>
+			<button onclick="rainbowClearCanvas()">clear (colored)</button>
+			<button onclick="mode='blur'">blur</button>
+			<!-- <button onclick="mode='scattered dots'">dots</button> -->
+			<!-- <button onclick="mode='smooth lines'">smooth</button> -->
+			<!-- <button onclick="mode='regular lines'">lines</button> -->
+			<!-- <button onclick="mode='thread'">🧵</button> -->
+			<!-- <button onclick="mode='mountains'">🗻</button> -->
+		</div>
+		<div id="colorPickerLabel">
+			<p>Color Picker for drawing:</p>
+		</div>
+	</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
