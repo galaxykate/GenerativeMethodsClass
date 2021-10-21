@@ -1,0 +1,32 @@
+body {
+  background-color: #3D9970;
+}
+
+.holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sub-holder {
+	box-sizing: border-box;
+	margin: 10px;
+	vertical-align: top;
+  background-color: #dddddd;
+	display: inline-block;
+	
+	box-shadow: 1px 2px 5px black;
+	border-radius: 10px;
+}
+
+.sub-holder-label {
+	font-family: monospace;
+  font-weight: bold;
+	margin: 10px;
+	text-align: center;
+}
+
+.canvas-holder{
+	box-sizing: border-box;
+	margin: 10px;
+}

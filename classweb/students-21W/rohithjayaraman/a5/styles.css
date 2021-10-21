@@ -1,0 +1,56 @@
+
+body,html {
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  font-family: 'Alegreya';
+}
+
+*:focus {
+  outline: none;
+}
+
+#app {
+	overflow: hidden;
+	display: flex;
+	flex:1;
+	flex-direction: column;
+}
+
+#main-column {
+	background-color: #3D9970;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+}
+
+.input {
+	border: 2px solid #2A52BE;
+  border-radius: 15px;
+  height: 30px;
+  width: 150px;
+  font-size: 14pt;
+  margin: 10px;
+  background-color: #DDDDDD;
+}
+
+.button {
+  border: 1px solid navy;
+  border-radius: 15px;
+  height: 30px;
+  width: 70px;
+  font-size: 12pt;
+  background-color: #2A52BE;
+  color: white;
+}

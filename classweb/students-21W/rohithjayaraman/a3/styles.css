@@ -1,0 +1,53 @@
+:root {
+  --my-color: red;
+}
+
+* {
+  font-family: 'Alegreya';
+}
+
+body {
+  background-color: #3D9970;
+}
+
+button:focus {
+  outline:0;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #dddddd;
+  padding-left: 45px;
+}
+
+.holder {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.button-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 10px;
+}
+
+.mode-button, .color-picker {
+  padding: 2px;
+  margin: 3px;
+  background-color: #dddddd;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.mode-button {
+  color: #008080;
+}
+
+.color-picker {
+  color: var(--my-color)
+}

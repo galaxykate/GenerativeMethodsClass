@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya">
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <div class="tab-container" id="header">
+      <button class="tab-button-active" id="home-button" onclick="onTabClick('home')">Home</button>
+      <button class="tab-button" id="assignment-button" onclick="onTabClick('assignments')">Assignments</button>
+    </div>
+    <div id="home">
+      <div class="profile-container">
+        <img src="profile.JPG" class="profile-photo"></img>
+        <span class="info">
+          <div class="name">
+            Rohith Jayaraman
+          </div>
+          <div class="about">
+            Masters in CS (<a target=_blank href="https://www.github.com/rohithjayaraman">Github</a> | <a target=_blank
+              href="https://www.linkedin.com/in/rohith-jayaraman/">Linkedin</a>)
+          </div>
+        </span>
+      </div>
+      <div class="quote">
+        Mirror mirror on the wall, so many bugs - how to get rid of them all?
+      </div>
+    </div>
+    <div class="assignment-container" id="assignments"></div>
+  </body>
+
+</html>

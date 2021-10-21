@@ -1,0 +1,128 @@
+
+body,html {
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+
+body {
+  background-color: #3D9970;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	padding-top: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+h1,h2,h3 {
+	margin: 0px 2px;
+	font-family: 'Alegreya';
+	
+}
+
+
+.contrast {
+	color: hsla(320, 100%, 40%, 1);
+}
+.title {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.ultradetail  {
+	color: grey;
+	font-style: italic;
+	font-size: 50%;
+}
+
+.label {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+}
+
+.slider {
+	position: relative;
+	appearance: slider-horizontal;
+    color: -internal-light-dark(rgb(16, 16, 16), rgb(255, 255, 255));
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
+
+.slider-cell {
+	position: relative;
+}
+.slider-val {
+	position: absolute;
+	top: -3px;
+	color: grey;
+	font-style: italic;
+	font-size: 50%;
+}
+
+#app {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex:1;
+	flex-direction: column;
+}
+
+
+#main-column {
+	flex: 1;
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+	width: 800px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.emoji-button {
+	text-align: center;
+	width: 2em;
+	height: 2em;
+	border-width: 0px;
+	border-radius: 10em;
+	padding: 0px;
+	background-color: white;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .7);
+}
+/* The button when pressed */
+.emoji-button:active {
+	box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+button.toggled {
+	background-color: grey;
+}
+
+#controls {
+	flex: 0.5;
+	margin: 10px;
+
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, .5);
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	color: #3D9970;
+	
+}
+
+.handsfree-debugger {
+	top: -600px;
+	position: absolute;
+	width:240px;
+	right: -600px;
+}

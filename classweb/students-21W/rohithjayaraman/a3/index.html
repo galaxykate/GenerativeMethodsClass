@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+<head>
+  <title>Assignment 3 - Drawing Tool</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- P5 Loaded from a CDN -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script> -->
+
+  <!-- Or P5 loaded locally -->
+  <script src="../../../shared/p5.min.js"></script>
+
+  <script src="vector.js"></script>
+
+  <script src="app.js"></script>
+
+</head>
+
+<body>
+  <h1>dROw your heart out</h1>
+  <div id="holder" class="holder">
+    <div class="button-holder">
+      <button class="mode-button" onclick="clearCanvas()">Clear</button>
+      <button class="mode-button" onclick="setMode('snitch')">Snitch</button>
+      <button class="mode-button" onclick="setMode('flag')">Party flag</button>
+      <button class="mode-button" onclick="setMode('marker')">Marker</button>
+      <select class="color-picker" name="Colour" id="colour" onchange="setColor(this)">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="orange">Orange</option>
+        <option value="hotpink">Pink</option>
+        <option value="purple">Purple</option>
+        <option value="black">Black</option>
+      </select>
+    </div>
+    <div id="canvas"></div>
+  </div>
+  <h1 id="mode-display"></h1>
+</body>
+
+</html>

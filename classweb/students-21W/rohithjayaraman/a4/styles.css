@@ -1,0 +1,35 @@
+* {
+  font-family: 'Alegreya';
+}
+
+body, .main-controller, .canvas, h1 {
+  width: 100%;
+}
+
+body {
+  background-color: #3D9970;
+}
+
+.lightmap {
+  position: absolute;
+  right: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mode-display {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.canvas {
+  display: flex;
+  justify-content: center;
+}

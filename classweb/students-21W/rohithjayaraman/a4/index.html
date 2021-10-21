@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+    <title>Assignment 4 - Particles</title>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya">
+	
+	<link rel="stylesheet" href="styles.css">
+
+	<!-- P5 Loaded from a CDN -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script> -->
+
+	<!-- Or P5 loaded locally -->
+	<script src="../../../shared/p5.js"></script>
+	
+	
+	<script src="vector.js"></script>
+	<script src="lightmap.js"></script>
+	<script src="snitch.js"></script>
+	<script src="seeker.js"></script>
+	<script src="bludger.js"></script>
+	<script src="sensor.js"></script>
+
+	<script src="app.js"></script>
+
+</head>
+<body>
+
+	<div id="main-column" class="main-container">
+		<h1>Quirinus Quidditch</h1>
+
+		<div id="lightmap" class="lightmap"></div>
+		
+		<div id="main" class="canvas"></div>
+
+		<div id="controls" class="controls">
+			<button onclick="paused=!paused">Pause</button>
+			<button onclick="FLAGS.drawSnitchDebug=!FLAGS.drawSnitchDebug">SnitchDebug</button>
+			<button onclick="FLAGS.drawBludgerDebug=!FLAGS.drawBludgerDebug">BludgerDebug</button>
+			<button onclick="FLAGS.drawSeekerDebug=!FLAGS.drawSeekerDebug">SeekerDebug</button>
+			<button onclick="setMode('Snitch')"> Create Snitch</button>
+			<button onclick="setMode('Bludger')">Create Bludger</button>
+			<button onclick="setMode('Seeker')">Create Seeker</button>
+		</div>
+	</div>
+	<div id="mode-display" class="mode-display"></div>
+
+</body>
+</html>
